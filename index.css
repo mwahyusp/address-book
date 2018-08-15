@@ -1,116 +1,25 @@
-body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    
-}
+.header{background-color: rgb(252, 119, 119);width: 540px}
+a { color: #0068D2; cursor: pointer; }
+a:link, a:visited { text-decoration: none; color: #0068D2; }
+a:hover, a:active { text-decoration: underline; color: #0068D2; }
+body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", sans-serif; width: 540px}
+h1{ display: block; padding-left: 20px;padding-top: 20px;}
+.search-class{padding-left: 300px;}
 
-.form-style {
-    max-width: 500px;
-    padding: 20px 12px 10px 20px;
-    font: 13px Arial, Helvetica, sans-serif;
-}
+#contacts-table { border-collapse: collapse; background-color: rgb(180, 248, 163);width: 540px}
+#contacts-table, #contacts-table th, #contacts-table td { padding: 8px 16px; text-align: left; border: 0px solid #B9BABE; }
+#contacts-table th { font-weight: bold; font-size: 14px; color: #29344B; }
+#contacts-table td { color: #000; }
+#contacts-table tr:nth-child(2n) { background: #E8EDFF; }
 
-.form-style-heading {
-    font-weight: bold;
-    font-style: italic;
-    border-bottom: 2px solid #ddd;
-    margin-bottom: 20px;
-    font-size: 15px;
-    padding-bottom: 3px;
-}
-
-.form-style label {
-    display: block;
-    margin: 0 0 15px 0;
-}
-
-.form-style label > span{
-    width: 100px;
-    font-weight: bold;
-    float: left;
-    padding-top: 8px;
-    padding-right: 5px;
-}
-
-.form-style input.input-field, .form-style .select-field {
-    width: 48%;
-}
-
-.form-style input.input-field {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border: 1px solid #C2C2C2;
-    box-shadow: 1px 1px 4px #EBEBEB;
-    -moz-box-shadow: 1px 1px 4px #EBEBEB;
-    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    padding: 7px;
-    outline: none;
-}
-
-.form-style .input-field:focus {
-    border: 1px solid #0C0;
-}
-
-.form-style .textarea-field {
-    height:100px;
-    width: 55%;
-}
-
-.form-style button,
-.form-style input[type=submit] {
-    border: none;
-    padding: 8px 15px 8px 15px;
-    background: rgba(0, 174, 255, 0.795);
-    color: #fff;
-    box-shadow: 1px 1px 4px #DADADA;
-    -moz-box-shadow: 1px 1px 4px #DADADA;
-    -webkit-box-shadow: 1px 1px 4px #DADADA;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    margin: 10px 10px 0 0;
-}
-
-.form-style button:hover,
-.form-style input[type=submit]:hover {
-    background: rgb(0, 168, 234);
-    color: #fff;
-}
-
-ol {
-    font-weight: bold;
-    font-size: 1.17em;
-    float: left;
-}
-
-ul {
-    list-style-type: none;
-    font-weight: bold;
-    float: left;
-    padding-top: 8px;
-    padding-right: 5px;
-}
-
-ol > li {
-    clear: both;
-}
-
-img {
-    width: 15px;
-    margin-left: 6px;
-}
-
-.form-style button{
-    margin-bottom: 15px;
-}
-
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin-bottom: 15px;
-}
+#contacts-form { padding: 10px; background-color:rgb(252, 230, 109)}
+.text input, .button input { padding: 5px; margin: 0; border: 1px solid #ccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+#contacts-form .item { margin: 3px 0; }
+#contacts-form label, #contacts-form .field { display: inline-block; color: #0C0B07; }
+#contacts-form label { width: 110px; font-weight: bold; text-align: right; color: #666; }
+#contacts-form .text input { width: 176px; padding: 3px; }
+#contacts-form .button { display: inline-block; }
+#contacts-form .button-wrapper { padding-left: 113px; }
+.button input { padding: 4px 8px; color: #343434; background-color: #fdfdfd; background: -moz-linear-gradient(#fdfdfd, #e1e1e1); background: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#e1e1e1)); }
+.button-default input { font-weight: bold; color: #fff; background-color: #7ca0c7; background: -moz-linear-gradient(#acc6e1, #7ca0c7); background: -webkit-gradient(linear, 0 0, 0 100%, from(#acc6e1), to(#7ca0c7)); border-color: #5b80b2; }
+.button-wrapper{ text-align: left; }
