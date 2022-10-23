@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.header {
+    background-color: #B4CFB0;
+    width: 540px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30%;
+}
+
+a {
+    color: #0068D2;
+    cursor: pointer;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #0068D2;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #0068D2;
+}
+
+body {
+    font: 12px/18px 'Poppins', sans-serif;
+    width: fit-content;
+    margin-inline: 35%;
+}
+
+h1 {
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.search-class {
+    padding-left: 285px;
+}
+
+#contacts-table {
+    border-collapse: collapse;
+    background-color: #F4D19B;
+    width: 540px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#contacts-table,
+#contacts-table th,
+#contacts-table td {
+    padding: 8px 16px;
+    text-align: left;
+    border: 0px solid #B9BABE;
+}
+
+#contacts-table th {
+    font-weight: bold;
+    font-size: 14px;
+    color: #29344B;
+    border-radius: 0px;
+}
+
+#contacts-table td {
+    color: #000;
+    border-radius: 0px;
+}
+
+#contacts-table tr:nth-child(2n) {
+    background: #E8EDFF;
+}
+
+#contacts-form {
+    padding: 10px;
+    background-color: #9ADCFF;
+    padding-left: 50px
+}
+
+.text input,
+.button input {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 8px;
+}
+
+#contacts-form .item {
+    margin: 3px 0;
+}
+
+#contacts-form label,
+#contacts-form .field {
+    display: inline-block;
+    color: #0C0B07;
+}
+
+#contacts-form label {
+    width: 100px;
+    font-weight: bold;
+    text-align: left;
+    color: #666;
+}
+
+#contacts-form .text input {
+    width: 200px;
+    padding: 10px;
+}
+
+#contacts-form .button {
+    display: inline-block;
+}
+
+#contacts-form .button-wrapper {
+    padding-left: 180px;
+    ;
+}
+
+.button input {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #343434;
+    background-color: #fdfdfd;
+    background: -moz-linear-gradient(#fdfdfd, #e1e1e1);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#e1e1e1));
+}
+
+.button-default input {
+    font-weight: bold;
+    color: #fff;
+    background-color: #7ca0c7;
+    background: -moz-linear-gradient(#acc6e1, #7ca0c7);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#acc6e1), to(#7ca0c7));
+    border-color: #5b80b2;
+}
+
+#input_search,
+#search_button,
+#reset_search_button {
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+}
